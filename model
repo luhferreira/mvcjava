@@ -21,6 +21,7 @@ Public class Task {
     Public boolean isCompleted() {
         Return completed;
     }
+}
 
     Public void markAsCompleted() {
         Completed = true;
