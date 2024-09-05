@@ -1,0 +1,27 @@
+Public class Main {
+    Public static void main(String[] args) {
+        TaskController controller = new TaskController();
+        TaskView view = new TaskView(controller);
+        View.handleUserInput();
+    }
+}
+Public class Task {
+    Private String description;
+    Private boolean completed;
+
+    Public Task(String description) {
+        This.description = description;
+        This.completed = false;
+    }
+
+    Public String getDescription() {
+        Return description;
+    }
+
+    Public boolean isCompleted() {
+        Return completed;
+    }
+
+    Public void markAsCompleted() {
+        Completed = true;
+    }
